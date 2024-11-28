@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+          <script> 
+       //print hello reverse olleh
+
+       let emp="hello"
+        for(i=emp.length-1;i>=0;i--){
+            console.log(emp[i]);
+        }
+
+        //print even sum and odd sum in same loop
+
+        let arr=[23,54,67,64,46,95,98]
+        let even=0;
+        let odd=0;
+        for(i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                even+=Number(arr[i]);
+            }
+            
+            else{
+                odd+=Number(arr[i]);
+            }
+        }
+        console.log("this is even", even)
+        console.log( "this is odd", odd)
+        
+        //print a objective in for loop
+        let obj={
+            name:"teju",
+            age:22,
+            id:1096
+        }
+        for(i in obj){
+            console.log( "data type:-",i,"/"," data:-", obj[i] );
+        }
+        
+           
+    </script>
+</body>
+</html>
